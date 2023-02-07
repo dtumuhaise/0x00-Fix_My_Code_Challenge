@@ -8,6 +8,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """__init___"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -16,9 +17,11 @@ class square():
         return self.width * self.height
 
     def PermiterOfMySquare(self):
+        """peremeter of square"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """__str___"""
         return "{}/{}".format(self.width, self.height)
 
 
