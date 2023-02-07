@@ -2,7 +2,7 @@
 """ module for the square class """
 
 
-class square():
+class Square():
     """ defining the class """
 
     width = 0
